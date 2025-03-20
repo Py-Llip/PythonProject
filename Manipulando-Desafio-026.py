@@ -1,0 +1,5 @@
+f = str(input('Digite uma frase: ')).upper().strip()
+r = f.count('A', 0, )
+print('A letra \033[31mA\033[m aparece \033[32m{}\033[m vezes na frase'.format(r))
+print('A primeira letra \033[31mA\033[m apareceu na posição \033[32m{}\033[m'.format(f.find('A')+1))
+print('A ultima letra \033[31mA\033[m apareceu na posição \033[32m{}\033[m'.format(f.rfind('A')+1))
